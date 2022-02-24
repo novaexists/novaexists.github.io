@@ -1,8 +1,10 @@
-img {
-  height: 300px;
-  width: auto;
+* {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
-h1 {
-  font-size: 100px;
+img {
+    height: 300px;
+    width: auto;
 }
