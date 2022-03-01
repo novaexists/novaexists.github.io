@@ -35,6 +35,43 @@ header a {
 
 nav a:hover {
     background-color: skyblue;
+/* UNIVERSAL STYLES */
+* {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* TOP BAR */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: skyblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: skyblue;
     border-radius: 10px;
     padding: 10px;
     color: black;
@@ -99,20 +136,6 @@ header img {
     color: black;
     padding: 10px;
 }
-/* BODY */
-
-.post {
-    background-color: skyblue;
-    color: black;
-    text-align: center;
-    padding: 30px;
-    border: 5px dashed black;
-    border-radius: 50px;
-}
-
-.title {
-    background-color: skyblue;
-    color: black;
     margin-bottom: -20px;
     font-size: 40px;
     text-transform: uppercase;
