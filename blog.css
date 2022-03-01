@@ -35,43 +35,6 @@ header a {
 
 nav a:hover {
     background-color: skyblue;
-/* UNIVERSAL STYLES */
-* {
-    background-color: black;
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* TOP BAR */
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
-
-}
-
-header ul {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    list-style: none;
-    padding: 50px;
-}
-
-header a {
-    text-decoration: none;
-    color: skyblue;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-nav a:hover {
-    background-color: skyblue;
     border-radius: 10px;
     padding: 10px;
     color: black;
@@ -105,40 +68,6 @@ header img {
     font-size: 40px;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
-}
-
-.date {
-    background-color: skyblue;
-    color: grey;
-}
-
-.content {
-    background-color: skyblue;
-    color: black;
-    padding: 30px;
-}
-
-.secondarynav {
-    color: skyblue;
-    display: flex;
-    justify-content: space-between;
-}
-
-.secondarynav a{
-    text-decoration: none;
-    color: skyblue;
-    padding: 10px;
-}
-
-.secondarynav a:hover {
-    background-color: skyblue;
-    border-radius: 50px;
-    color: black;
-    padding: 10px;
-}
-    margin-bottom: -20px;
-    font-size: 40px;
-    text-transform: uppercase;
 }
 
 .date {
