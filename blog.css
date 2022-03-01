@@ -1,6 +1,7 @@
 /* UNIVERSAL STYLES */
 * {
     background-color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* TOP BAR */
@@ -27,6 +28,9 @@ header a {
     text-decoration: none;
     color: skyblue;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 nav a:hover {
@@ -44,6 +48,57 @@ header img {
     margin-left: 20px;
 }
 
+/* BODY */
+
+.post {
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    border: 5px double black;
+    border-radius: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    background-color: skyblue;
+    color: black;
+    margin-bottom: -20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.date {
+    background-color: skyblue;
+    color: grey;
+}
+
+.content {
+    background-color: skyblue;
+    color: black;
+    padding: 30px;
+}
+
+.secondarynav {
+    color: skyblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondarynav a{
+    text-decoration: none;
+    color: skyblue;
+    padding: 10px;
+}
+
+.secondarynav a:hover {
+    background-color: skyblue;
+    border-radius: 50px;
+    color: black;
+    padding: 10px;
+}
 /* BODY */
 
 .post {
